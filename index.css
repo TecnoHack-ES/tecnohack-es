@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.propiedad {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.propiedad img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.footer-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-info, .footer-enlaces {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+
+.footer-info h3, .footer-enlaces h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f8c23c;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-enlaces ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-enlaces ul li {
+    margin-bottom: 8px;
+}
+
+.footer-enlaces ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-enlaces ul li a:hover {
+    color: #f8c23c;
+}
+
+.footer-enlaces ul li a::before {
+    content: "🔗";
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer-enlaces ul li a[href*="milanuncios"]::before {
+    content: "📢";
+}
+
+.footer-enlaces ul li a[href*="idealista"]::before {
+    content: "🏠";
+}
+
+.footer-enlaces ul li a[href*="instagram"]::before {
+    content: "📷";
+}
+
+.footer-enlaces ul li a[href*="facebook"]::before {
+    content: "📘";
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+}
+
+.whatsapp-btn img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-btn:hover img {
+    transform: scale(1.1);
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.propiedad, .articulo {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.propiedad img, .articulo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
+    color: #555;
+}
+
+#blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.blog-item {
+    width: 300px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+.blog-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+
+.blog-item h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.blog-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.blog-item span {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #777;
+}
+

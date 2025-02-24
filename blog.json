@@ -1,0 +1,16 @@
+[
+    {
+        "titulo": "Consejos para comprar tu primera vivienda",
+        "contenido": "Comprar una casa puede ser complicado. Aquí tienes los mejores consejos...",
+        "imagen": "src/img/blog1.jpg",
+        "fecha": "2025-02-23",
+        "url": "src/articulos/articulo1.html"
+    },
+    {
+        "titulo": "¿Es mejor alquilar o comprar?",
+        "contenido": "Exploramos las ventajas y desventajas de cada opción...",
+        "imagen": "src/img/blog2.jpg",
+        "fecha": "2025-02-20",
+        "url": "src/articulos/articulo1.html"
+    }
+]

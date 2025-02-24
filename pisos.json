@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "Apartamento en Madrid",
+        "descripcion": "Un apartamento moderno en el centro de Madrid, cerca de todo.",
+        "imagen": "src/img/marcos_rubio.jpg"
+    },
+    {
+        "titulo": "Chalet con Piscina en Málaga",
+        "descripcion": "Disfruta de la tranquilidad en este chalet con piscina privada.",
+        "imagen": "src/img/marcos_rubio.jpg"
+    },
+    {
+        "titulo": "Casa Podrida en Sevilla",
+        "descripcion": "Disfruta de la tranquilidad de una buena puñalada en las costillas.",
+        "imagen": "src/img/marcos_rubio.jpg"
+    }
+]

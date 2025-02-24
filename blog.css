@@ -1,0 +1,199 @@
+/* Estilo global para el blog */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+#blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.blog-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.blog-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.blog-item h3 {
+    margin: 1rem 0;
+}
+
+.blog-item p {
+    color: #555;
+}
+
+.blog-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.blog-item:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+footer .social a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer .social a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+.footer-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-info, .footer-enlaces {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+
+.footer-info h3, .footer-enlaces h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #f8c23c;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-enlaces ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-enlaces ul li {
+    margin-bottom: 8px;
+}
+
+.footer-enlaces ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-enlaces ul li a:hover {
+    color: #f8c23c;
+}
+
+.footer-enlaces ul li a::before {
+    content: "🔗";
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer-enlaces ul li a[href*="milanuncios"]::before {
+    content: "📢";
+}
+
+.footer-enlaces ul li a[href*="idealista"]::before {
+    content: "🏠";
+}
+
+.footer-enlaces ul li a[href*="instagram"]::before {
+    content: "📷";
+}
+
+.footer-enlaces ul li a[href*="facebook"]::before {
+    content: "📘";
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+}
+
+.whatsapp-btn img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-btn:hover img {
+    transform: scale(1.1);
+}
